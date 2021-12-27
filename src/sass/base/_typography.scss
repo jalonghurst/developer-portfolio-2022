@@ -45,7 +45,8 @@ color: rgb(55, 105, 191) !important;
 
   // Responsive text purple style
   @include respond(phone) {
-    background-image: none;
+    // background-image: none;
+      background: url("./assets/space.jpg");
     -webkit-text-fill-color: $secondary-color;
   }
 
