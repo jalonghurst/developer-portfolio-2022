@@ -1,8 +1,14 @@
 #projects {
   background-color: $white-color;
-  color: $dark-blue-text;
+  color: rgb(55, 105, 191);
+  // color: $dark-blue-text;
   margin-top: -10rem;
   padding-top: 15rem;
+
+  background: url("./assets/space.jpg");
+  background-position: center;
+  
+
 
   @include respond(tab-land) {
     margin-top: 0;
