@@ -8,10 +8,10 @@
   padding-top: 15rem;
 
   
-  // background: url("./assets/space-blur.jpg");
-  // background-position: center;
-  
+  background-image: url("./assets/space-blur.jpg");
+  background-position: center;
 
+                     
   @include respond(tab-land) {
     margin-top: 0;
     padding-top: 5rem;
@@ -83,11 +83,13 @@
       }
     }
   }
-}
+
+} 
 
 
-/* ---- particles.js container ---- */ 
-    #particles-js{ 
+ /* ---- particles.js container ---- */ 
+   
+#particles-js{ 
         position:absolute; 
         width: 100%; 
         height: 100%; 
@@ -131,3 +133,4 @@
                     .count-particles{ 
                         border-radius: 0 0 3px 3px;
                      }
+                    

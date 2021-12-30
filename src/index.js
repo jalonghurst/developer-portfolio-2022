@@ -23,7 +23,7 @@ particlesJS("particles-js", {
     opacity: {
       value: 1,
       random: true,
-      anim: { enable: true, speed: 1, opacity_min: 0, sync: false },
+      anim: { enable: true, speed: 2, opacity_min: 0, sync: false },
     },
     size: {
       value: 1.2,
@@ -70,6 +70,7 @@ particlesJS("particles-js", {
   },
   retina_detect: true,
 });
+
 var count_particles, stats, update;
 stats = new Stats();
 stats.setMode(0);
@@ -87,4 +88,3 @@ update = function () {
   requestAnimationFrame(update);
 };
 requestAnimationFrame(update);
-
