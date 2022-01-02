@@ -33,7 +33,7 @@
 
   <!-- Todo: read the following HTML Todos to create your stunning portfolio website -->
   <body>
-    <div id="particles-js"></div>
+    
     <div id="top"></div>
 
     <!-- **** Hero Section **** -->
@@ -97,8 +97,8 @@
     
 <!-- particles.js container wrapped only around project section -->
     <!-- Iamge of Developer Skillset;languages,technologies and devices -->
-
-    <section id="projects" id="particles-js" >
+<div id="particles-js">
+    <section id="projects" >
   <div class="container">
     <div class="project-wrapper">
       <div class="row">
@@ -579,9 +579,7 @@
           </section>
 
           <!-- particles.js container closing div -->
-        <!-- </div> -->
-
-
+</div>
     <!-- **** Contact Section **** -->
     <section id="contact">
       <div class="container">
@@ -658,12 +656,12 @@
       <!-- particles.js revise HTML-->
       
       <!-- stats - count particles -->
-      <div class="count-particles"> <span class="js-count-particles">--</span> particles </div>
+      <!-- <div class="count-particles"> <span class="js-count-particles">--</span> particles </div> -->
       <!-- particles.js lib - https://github.com/VincentGarreau/particles.js -->
       <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> <!-- stats.js lib -->
       <script src="http://threejs.org/examples/js/libs/stats.min.js"></script>
       <script>
-        particlesJS.load('particles-js', 'particles.json',function(){
+        particlesJS.load('particles-js', './assets/particles.json',function(){
           console.log('particles.json loaded')
         });
       </script>
