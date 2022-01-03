@@ -1,13 +1,5 @@
-import initScrollReveal from "./scripts/scrollReveal";
-import initTiltEffect from "./scripts/tiltAnimation";
-import { targetElements, defaultProps } from "./data/scrollRevealConfig";
-import "./assets/particles.json";
 
-initScrollReveal(targetElements, defaultProps);
-initTiltEffect();
-
-
-
+// import "./assets/particles.json";
 
 particlesJS("particles-js", {
   particles: {
@@ -75,7 +67,6 @@ particlesJS("particles-js", {
   },
   retina_detect: true,
 });
-
 /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
 particlesJS.load("particles-js", "assets/particles.json", function () {
   console.log("callback - particles.js config loaded");

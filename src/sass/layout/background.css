@@ -1,12 +1,14 @@
 /* ---- reset ---- */ 
-/* // body{ margin:0; 
-//     font:normal 75% Arial, Helvetica, sans-serif; 
-// } 
-//     canvas{ 
-//         display: block; 
-//         vertical-align: bottom;
-//      } 
-     */
+body { 
+    margin:0; 
+    font:normal 75% Arial, Helvetica, sans-serif;
+ }
+ canvas { 
+    display: block; 
+    /* vertical-align: bottom;  */
+
+} 
+    
     /* ---- particles.js container ---- */ 
     #particles-js{ position:absolute; 
         width: 100%; 
@@ -18,7 +20,7 @@
         background-position: 50% 50%; 
     } 
 
-        ---- stats.js ---- 
+        /* ---- stats.js ---- 
         .count-particles{ 
             background: #000022; 
             position: absolute; 
@@ -50,4 +52,4 @@
                     } 
                     .count-particles{ 
                         border-radius: 0 0 3px 3px;
-                     }
+                     } */
