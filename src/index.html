@@ -33,7 +33,17 @@
 
   <!-- Todo: read the following HTML Todos to create your stunning portfolio website -->
   <body>
-    
+    <!-- particles.js revise HTML-->
+      
+      <!-- stats - count particles -->
+      <!-- <div class="count-particles"> <span class="js-count-particles">--</span> particles </div> -->
+      <!-- particles.js lib - https://github.com/VincentGarreau/particles.js -->
+      <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> <!-- stats.js lib -->
+      <script src="http://threejs.org/examples/js/libs/stats.min.js"></script>
+      <script
+        particlesJS.load('particles-js', './assets/particles.json', function () {
+          console.log('particles.json loaded')
+        });></script>
     <div id="top"></div>
 
     <!-- **** Hero Section **** -->
@@ -94,11 +104,12 @@
       </div>
     </section>
     <!-- /END About Section -->
-    
+
+      
 <!-- particles.js container wrapped only around project section -->
     <!-- Iamge of Developer Skillset;languages,technologies and devices -->
-<div id="particles-js">
-    <section id="projects" >
+<!-- <div id="particles-js"> -->
+  <section id="projects"  >
   <div class="container">
     <div class="project-wrapper">
       <div class="row">
@@ -119,9 +130,10 @@
         </div>
       </div>
       </section>
-
+          <!-- particles.js container closing div -->
+          <!-- </div> -->
     <!-- **** Projects Section **** -->
-    <section id="projects" id="particles-js">
+    <section id="projects">
       <div class="container" >
         <div class="project-wrapper">
           <h2 class="section-title dark-blue-text">Projects</h2>
@@ -287,7 +299,7 @@
 
     <!-- COURSES SECTION -->
     
-    <section id="projects" id="particles-js">
+    <section id="projects">
       <div class="container">
         <div class="project-wrapper">
           <h2 class="section-title dark-blue-text">
@@ -578,8 +590,6 @@
           </div>
           </section>
 
-          <!-- particles.js container closing div -->
-</div>
     <!-- **** Contact Section **** -->
     <section id="contact">
       <div class="container">
@@ -653,18 +663,7 @@
       </div>
     </footer> -->
     <!-- /END Footer Section -->
-      <!-- particles.js revise HTML-->
-      
-      <!-- stats - count particles -->
-      <!-- <div class="count-particles"> <span class="js-count-particles">--</span> particles </div> -->
-      <!-- particles.js lib - https://github.com/VincentGarreau/particles.js -->
-      <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> <!-- stats.js lib -->
-      <script src="http://threejs.org/examples/js/libs/stats.min.js"></script>
-      <script>
-        particlesJS.load('particles-js', './assets/particles.json',function(){
-          console.log('particles.json loaded')
-        });
-      </script>
+    
     <script defer type="module" src="index.js"></script>
 
   </body>
