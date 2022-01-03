@@ -12,10 +12,11 @@ initTiltEffect();
 particlesJS("particles-js", {
   particles: {
     number: {
-      value: 524,
+      value: 924,
       density: { enable: true, value_area: 8097.230907370883 },
     },
     color: { value: "#659ef0" },
+    
     shape: {
       type: "circle",
       stroke: {
