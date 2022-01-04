@@ -32,7 +32,7 @@ particlesJS("particles-js", {
       anim: { enable: true, speed: 1, opacity_min: 0, sync: false },
     },
     size: {
-      value: 1.2,
+      value: 1.7,
       random: false,
       anim: {
         enable: false,
@@ -50,7 +50,7 @@ particlesJS("particles-js", {
     },
     move: {
       enable: true,
-      speed: 1,
+      speed: 3,
       direction: "top",
       random: true,
       straight: true,
