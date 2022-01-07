@@ -5,12 +5,8 @@
   "description": "A clean, beautiful and responsive portfolio template for Developers!",
   "source": "src/index.html",
   "scripts": {
-    
-  
-  "start": "node index.js",
-  "build": "ng build",
-  "heroku-postbuild": "ng build --prod" 
-
+    "start": "parcel",
+    "build": "parcel build"
   },
   "repository": {
     "type": "git",
