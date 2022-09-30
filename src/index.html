@@ -30,7 +30,6 @@
 
   <body>
     <div id="top"></div>
-
     <!-- **** Hero Section **** -->
     <section id="hero" class="jumbotron">
       <div class="container">
@@ -96,9 +95,9 @@
       
 <!-- particles.js container wrapped only around project section -->
     <!-- Iamge of Developer Skillset;languages,technologies and devices -->
-  <div id="particles-js"> <canvas class="particles-js-canvas-el" style="width: 100%; height: 100%;"></canvas></div>
-  <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> <!-- stats.js lib -->
-  <script src="http://threejs.org/examples/js/libs/stats.min.js"></script>
+  <!-- <div id="particles-js"> <canvas class="particles-js-canvas-el" style="width: 100%; height: 100%;"></canvas></div>
+  <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> stats.js lib -->
+  <!-- <script src="http://threejs.org/examples/js/libs/stats.min.js"></script> -->
 
   <!-- Developer Skillset image -->
   <section id="projects" >
@@ -107,13 +106,11 @@
       <div class="row">
           <div class="project-wrapper__image load-hidden">
             <a rel="noreferrer" href="#!" target="_blank">
-              <div data-tilt data-tilt-max="4" data-tilt-glare="true" data-tilt-max-glare="0.5"
+              <!-- <div data-tilt data-tilt-max="4" data-tilt-glare="true" data-tilt-max-glare="0.5"
                 class="thumbnail rounded js-tilt">
                 <img alt="Skillset developer" class="img-fluid" src="assets/Developer-skillset.png" />
-              </div>
+              </div> -->
             </a>
-            <br>
-            <br>
             <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--hero"
               href="https://github.com/jalonghurst"><i class="fa fa-github fa-inverse"></i>
               View Github Page
@@ -121,14 +118,62 @@
           </div>
         </div>
       </div>
-      </section>
-      
+      </section>  
  
     <!-- **** Projects Section **** -->
     <section id="projects">
       <div class="container" >
         <div class="project-wrapper">
           <h2 class="section-title dark-blue-text">Projects</h2>
+          <!-- Notice: each .row is a project PrimePay-->
+          <div class="row" >
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">PrimePay: Financial / Online Banking Web Layout</h3>
+                <div>
+                  <p class="mb-4">
+                    Web Design: A Responsive Layout for A Financial/Online Banking Website
+                  </p>
+                </div>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="https://jalonghurst.github.io/PrimePay/"
+                >
+                  See Live
+                </a>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="https://github.com/jalonghurst/PrimePay"
+                >
+                  Source Code
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a rel="noreferrer" href="https://jalonghurst.github.io/PrimePay/" target="_blank">
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                    <img
+                      alt="Project Image"
+                      class="img-fluid"
+                      src="../src/assets/splitviewmobile.png"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
           <!-- Notice: each .row is a project Cryptocurrency project-->
           <div class="row" >
             <div class="col-lg-4 col-sm-12">
@@ -178,22 +223,21 @@
             </div>
           </div>
           <!-- /END Project -->
-          <!-- Notice: each .row is a project, Face Recognition Project -->
-          <div class="row">
+          <!-- Notice: each .row is a project PrimePay-->
+          <div class="row" >
             <div class="col-lg-4 col-sm-12">
               <div class="project-wrapper__text load-hidden">
-                <h3 class="project-wrapper__text-title">Face Recognition API</h3>
+                <h3 class="project-wrapper__text-title">Hair Salon Layout</h3>
                 <div>
                   <p class="mb-4">
-                    This Smart app will analyse the submitted image URL with a face recognition API. Features the ability to register and sign into an account, aswell as viewing
-                    your personal image submission score. This project was bootstrapped with [Create React App]. Makes use of JavaScript runtime Node.js and PostgreSQL backend server.
+                    Web Design: A Responsive Layout for Hair Salon Website
                   </p>
                 </div>
                 <a
                   rel="noreferrer"
                   target="_blank"
                   class="cta-btn cta-btn--hero"
-                  href="https://smart-mind-face-react-app.herokuapp.com/"
+                  href="https://jalonghurst.github.io/HairSalon/"
                 >
                   See Live
                 </a>
@@ -201,7 +245,7 @@
                   rel="noreferrer"
                   target="_blank"
                   class="cta-btn text-color-main"
-                  href="https://github.com/jalonghurst/facerecognition"
+                  href="https://github.com/jalonghurst/HairSalon"
                 >
                   Source Code
                 </a>
@@ -209,7 +253,7 @@
             </div>
             <div class="col-lg-8 col-sm-12">
               <div class="project-wrapper__image load-hidden">
-                <a rel="noreferrer" href="https://github.com/jalonghurst/facerecognition" target="_blank">
+                <a rel="noreferrer" href="https://jalonghurst.github.io/HairSalon/" target="_blank">
                   <div
                     data-tilt
                     data-tilt-max="4"
@@ -220,7 +264,7 @@
                     <img
                       alt="Project Image"
                       class="img-fluid"
-                      src="assets/Face.png"
+                      src="../src/assets/split-view3.png"
                     />
                   </div>
                 </a>
@@ -228,6 +272,7 @@
             </div>
           </div>
           <!-- /END Project -->
+          
            <!-- Notice: each .row is a project Cryptocurrency project-->
            <div class="row" >
             <div class="col-lg-4 col-sm-12">
@@ -381,7 +426,56 @@
             </div>
           </div>
           <!-- /END Project -->
-
+<!-- Notice: each .row is a project, Face Recognition Project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">Face Recognition API</h3>
+                <div>
+                  <p class="mb-4">
+                    This Smart app will analyse the submitted image URL with a face recognition API. Features the ability to register and sign into an account, aswell as viewing
+                    your personal image submission score. This project was bootstrapped with [Create React App]. Makes use of JavaScript runtime Node.js and PostgreSQL backend server.
+                  </p>
+                </div>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="https://smart-mind-face-react-app.herokuapp.com/"
+                >
+                  See Live
+                </a>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="https://github.com/jalonghurst/facerecognition"
+                >
+                  Source Code
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a rel="noreferrer" href="https://github.com/jalonghurst/facerecognition" target="_blank">
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                    <img
+                      alt="Project Image"
+                      class="img-fluid"
+                      src="assets/Face.png"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
           <!-- Notice: each .row is a project, Add final project here -->
           <!-- <div class="row">
             <div class="col-lg-4 col-sm-12">
